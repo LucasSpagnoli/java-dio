@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/collections&amp;types/collections&amp;types.iml" filepath="$PROJECT_DIR$/collections&amp;types/collections&amp;types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compares/compares.iml" filepath="$PROJECT_DIR$/compares/compares.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exceptionsanddebug/exceptionsanddebug.iml" filepath="$PROJECT_DIR$/exceptionsanddebug/exceptionsanddebug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/file-manager/file-manager.iml" filepath="$PROJECT_DIR$/file-manager/file-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fundamentos/fundamentos.iml" filepath="$PROJECT_DIR$/fundamentos/fundamentos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/poo/poo.iml" filepath="$PROJECT_DIR$/poo/poo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spagship/spagship.iml" filepath="$PROJECT_DIR$/spagship/spagship.iml" />
+    </modules>
+  </component>
+</project>
