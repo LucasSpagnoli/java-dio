@@ -11,7 +11,7 @@ public class JogadorMain {
         }
     }
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         List<Jogador> jogadores = new ArrayList<Jogador>();
         jogadores.add(new Jogador("Lucas", 29));
         jogadores.add(new Jogador("Tiago", 22));
@@ -26,7 +26,7 @@ public class JogadorMain {
         jogadores.sort(Comparator.comparing(Jogador::getNome));
         System.out.println("Ordem por nome:");
         printJogadores(jogadores);
-        jogadores.sort(Comparator.comparing(Jogador::getNivel).thenComparing(Jogador::getPontos));
+        jogadores.sort(Comparator.comparing(Jogador::getNivel).thenComparing(Jogador::getPontos).reversed());
         System.out.println("Ordem por nível desempatando nos pontos:");
         printJogadores(jogadores);
 
