@@ -5,12 +5,36 @@ public class Jogador implements Comparable<Jogador> {
 
     public Jogador(String nome, int pontos) {
         this.nome = nome;
-        this.pontos = pontos;
+        this.pontos = pontos % 10;
         this.nivel = pontos / 10;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getPontos() {
+        return pontos;
+    }
+
+    public void setPontos(int pontos) {
+        this.pontos = pontos;
+    }
+
+    public int getNivel() {
+        return nivel;
+    }
+
+    public void setNivel(int nivel) {
+        this.nivel = nivel;
     }
 
     @Override
     public int compareTo(Jogador other) {
-        return Integer.compare(this.pontos, other.pontos);
+        return Integer.compare(other.pontos, this.pontos);
     }
 }

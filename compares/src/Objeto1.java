@@ -18,6 +18,6 @@ public class Objeto1 implements Comparable<Objeto1> {
 
     @Override
     public int compareTo(Objeto1 outro) {
-        return Integer.compare(this.altura, outro.altura); // retorna negativo se this for menor que outro,
+        return Integer.compare(this.altura, outro.altura); // retorna negativo se this for menor que outro, se retornar negativo, o 1° arg é ordenado antes do 2°
     }
 }
