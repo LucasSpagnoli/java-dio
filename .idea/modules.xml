@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/fundamentos/fundamentos.iml" filepath="$PROJECT_DIR$/fundamentos/fundamentos.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
       <module fileurl="file://$PROJECT_DIR$/poo/poo.iml" filepath="$PROJECT_DIR$/poo/poo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/set&amp;map/set&amp;map.iml" filepath="$PROJECT_DIR$/set&amp;map/set&amp;map.iml" />
       <module fileurl="file://$PROJECT_DIR$/spagship/spagship.iml" filepath="$PROJECT_DIR$/spagship/spagship.iml" />
     </modules>
   </component>
