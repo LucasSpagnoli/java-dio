@@ -1,3 +1,5 @@
+package theory;
+
 import java.util.function.Supplier;
 
 public class ISupplier { // não recebe nada mas retorna um valor

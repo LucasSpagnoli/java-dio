@@ -1,3 +1,5 @@
+package theory;
+
 import java.util.function.Function;
 
 public class IFunction { // recebe um valor e devolve outro

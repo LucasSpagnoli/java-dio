@@ -1,3 +1,5 @@
+package theory;
+
 import java.util.function.Predicate;
 
 public class IPredicate { // recebe um valor e retorna boolean

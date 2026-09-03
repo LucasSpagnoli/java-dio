@@ -1,3 +1,5 @@
+package theory;
+
 import java.util.function.BinaryOperator;
 
 public class IBinaryOperator { // recebe dois valores <T> e retorna um valor <T>. Caso queira que tenham tipos diferentes, pode usar BiFunction
